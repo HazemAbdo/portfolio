@@ -6,19 +6,23 @@ const Navbar = () => {
       items={[
         {
           label: "About Me",
-          url: "#about-me",
+          url: "#about",
+        },
+        {
+          label: "Background",
+          url: "#background",
+        },
+        {
+          label: "Experience",
+          url: "#experience",
         },
         {
           label: "Projects",
           url: "#projects",
         },
-        {
-          label: "Contact",
-          url: "#contact",
-        },
       ]}
       logo={{
-        src: "https://assets.ubuntu.com/v1/82818827-CoF_white.svg",
+        src: "src/assets/logo.svg",
         title: "Hazem Abdo",
         url: "#",
       }}
