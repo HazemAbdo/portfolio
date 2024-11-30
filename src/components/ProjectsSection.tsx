@@ -1,7 +1,7 @@
 import { Card, Col, Link, Row, Strip } from "@canonical/react-components";
 import { projectData } from "../data/portfolioData";
 
-const ProjectsSection = () => {
+export const ProjectsSection = () => {
   return (
     <Strip
       background="https://assets.ubuntu.com/v1/9b68976e-Aubergine_suru_background_2.png"
@@ -48,5 +48,3 @@ const ProjectsSection = () => {
     </Strip>
   );
 };
-
-export default ProjectsSection;

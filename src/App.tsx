@@ -1,8 +1,10 @@
-import AboutSection from "./componets/AboutSection";
-import Navbar from "./componets/Navbar";
-import ExperiencesSection from "./componets/ExperiencesSection";
-import ProjectsSection from "./componets/ProjectsSection";
-import BackgroundSection from "./componets/BackgroundSection";
+import {
+  AboutSection,
+  Navbar,
+  ExperiencesSection,
+  ProjectsSection,
+  BackgroundSection,
+} from "./components";
 
 const App = () => {
   return (

@@ -1,7 +1,7 @@
 import { Card, Chip, Col, Link, Row, Strip } from "@canonical/react-components";
 import { experienceData } from "../data/portfolioData";
 
-const ExperiencesSection = () => {
+export const ExperiencesSection = () => {
   return (
     <Strip
       background="https://assets.ubuntu.com/sites/ubuntu/latest/u/img/backgrounds/image-background-paper.png"
@@ -17,7 +17,7 @@ const ExperiencesSection = () => {
         {experienceData.map((experience, index) => (
           <Col
             key={index}
-            size={4}
+            size={12}
             style={{
               marginBottom: "2rem",
             }}
@@ -55,5 +55,3 @@ const ExperiencesSection = () => {
     </Strip>
   );
 };
-
-export default ExperiencesSection;
